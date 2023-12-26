@@ -156,7 +156,7 @@ final_states_ub=[0; 0; -1; 0; -0.900; 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0; 0*(2*
 final_states_ig=[0; 0; -1; 0; -0.940; 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0; 0*(2*pi/360); 0];
 %state bounds during the movement
 
-omega_limit = (pi/2)/0.5; % 90บ in 0.5 sec
+omega_limit = (pi/2)/0.5; % 90ยบ in 0.5 sec
 v_limit = 1/0.5; % 1 meter in 0.5 seconds
 
 states_lb=[-5*(2*pi/360); -omega_limit; -2; -v_limit; -2; -v_limit; -pi/2; -omega_limit; -120*(2*pi/360); -omega_limit; -120*(2*pi/360); -omega_limit; -120*(2*pi/360); -omega_limit; -120*(2*pi/360); -omega_limit; -pi/2; -omega_limit; -5*(2*pi/360); -omega_limit]; 
